@@ -1,0 +1,23 @@
+{
+  "name": "docker-nodejs-postgres",
+  "version": "1.0.0",
+  "description": "Aplicação usando Docker e Postgresql",
+  "main": "app.js",
+  "scripts": {
+    "start": "node app.js"
+  },
+  "keywords": [
+    "node.js",
+    "express",
+    "pg",
+    "postgres",
+    "docker"
+  ],
+  "author": "Natan Severo",
+  "license": "ISC",
+  "dependencies": {
+    "consign": "^0.1.4",
+    "express": "^4.15.3",
+    "pg": "^6.2.3"
+  }
+}
